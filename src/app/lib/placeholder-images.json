@@ -3,9 +3,9 @@
   "placeholderImages": [
     {
       "id": "event-cover",
-      "description": "A vibrant party atmosphere with neon lights",
-      "imageUrl": "https://picsum.photos/seed/showup-party/1200/800",
-      "imageHint": "party neon"
+      "description": "A high-tech workspace with developers collaborating on AI technology",
+      "imageUrl": "https://picsum.photos/seed/vision-hack-ai/1200/800",
+      "imageHint": "tech workshop"
     }
   ]
 }

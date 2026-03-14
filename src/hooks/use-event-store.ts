@@ -8,11 +8,11 @@ const STORAGE_KEY_EVENT = 'showup_event_details';
 const STORAGE_KEY_GUESTS = 'showup_guest_list';
 
 const DEFAULT_EVENT: EventDetails = {
-  title: "Electric Nights: The Launch",
+  title: "Vision Hack La AI workshoop",
   date: "2024-12-31",
-  time: "21:00",
-  venue: "The Violet Vault",
-  description: "Join us for an immersive audio-visual experience where the beat never stops and the vibes are unmatched. Dress code: Neon Hype.",
+  time: "10:00",
+  venue: "Innovation Tech Lab",
+  description: "Join us for an intensive hands-on workshop focused on building the future with Vision AI. Hack, collaborate, and learn from industry experts.",
   isOpen: true,
 };
 
