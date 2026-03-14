@@ -8,7 +8,7 @@ const STORAGE_KEY_EVENT = 'showup_event_details';
 const STORAGE_KEY_GUESTS = 'showup_guest_list';
 
 const DEFAULT_EVENT: EventDetails = {
-  title: "Vision Hack La AI workshoop",
+  title: "Vision Hack LA AI Workshop",
   date: "2024-12-31",
   time: "10:00",
   venue: "Innovation Tech Lab",
