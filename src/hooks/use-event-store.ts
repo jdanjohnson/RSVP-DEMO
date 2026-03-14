@@ -4,7 +4,8 @@
 import { useState, useEffect } from 'react';
 import { Guest, EventDetails } from '@/lib/types';
 
-const STORAGE_KEY_EVENT = 'showup_event_details';
+// Updated storage key to version 2 to ensure the new default event applies immediately
+const STORAGE_KEY_EVENT = 'showup_event_details_v2';
 const STORAGE_KEY_GUESTS = 'showup_guest_list';
 
 const DEFAULT_EVENT: EventDetails = {
