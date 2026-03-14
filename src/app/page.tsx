@@ -10,7 +10,6 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, MapPin, Sparkles } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { cn } from '@/lib/utils';
 
 export default function GuestPage() {
   const { event, guests, addGuest, hydrated } = useEventStore();
@@ -35,13 +34,17 @@ export default function GuestPage() {
       
       {/* Hero Section */}
       <div className="relative h-[40vh] md:h-[50vh] w-full overflow-hidden">
-        <Image 
-          src={coverImg?.imageUrl || ''} 
-          alt="Party Cover"
-          fill
-          className="object-cover brightness-50"
-          priority
-        />
+        {coverImg?.imageUrl ? (
+          <Image 
+            src={coverImg.imageUrl} 
+            alt="Event Cover"
+            fill
+            className="object-cover brightness-50"
+            priority
+          />
+        ) : (
+          <div className="absolute inset-0 bg-muted" />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
         <div className="absolute bottom-0 left-0 p-6 w-full">
           <div className="max-w-xl mx-auto">

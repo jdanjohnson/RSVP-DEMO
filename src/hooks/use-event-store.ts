@@ -4,9 +4,9 @@
 import { useState, useEffect } from 'react';
 import { Guest, EventDetails } from '@/lib/types';
 
-// Updated storage key to version 2 to ensure the new default event applies immediately
-const STORAGE_KEY_EVENT = 'showup_event_details_v2';
-const STORAGE_KEY_GUESTS = 'showup_guest_list';
+// Bumped to v3 to ensure title change to Vision Hack LA applies
+const STORAGE_KEY_EVENT = 'showup_event_details_v3';
+const STORAGE_KEY_GUESTS = 'showup_guest_list_v3';
 
 const DEFAULT_EVENT: EventDetails = {
   title: "Vision Hack LA AI Workshop",
